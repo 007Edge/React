@@ -1,9 +1,9 @@
-
+import Test from './edge'
 function App() {
   
 
   return (
-    <h1>learing react</h1>
+    <Test />
   )
 }
 
