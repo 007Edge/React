@@ -17,7 +17,7 @@ function customRender(reactElement, container) {
     domElement.innerHTML = reactElement.children;
 
     for (const prop in reactElement.props) {
-        domElement.setAttribute(prop, reactElement.props[prop]); s // prop is key and (reactElement.props[prop]) is value of key
+        domElement.setAttribute(prop, reactElement.props[prop]);  // prop is key and (reactElement.props[prop]) is value of key
     }
     container.appendChild(domElement);
 }
